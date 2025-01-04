@@ -1,14 +1,5 @@
-ast
-atexit
-datetime
 httpx
 inputs
 keyboard
 mitmproxy
-platform
 requests
-subprocess
-tempfile
-threading
-win32crypt
-winreg
