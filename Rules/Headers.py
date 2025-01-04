@@ -5,7 +5,6 @@ from Utils import Misc
 url = "api/v1/auth/v2/publicKey"
 filename = "Headers.json"
 status = True
-Misc.load_settings()
 
 def request(flow):
     try:

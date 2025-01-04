@@ -8,7 +8,6 @@ url = "api/v1/dbd-character-data/bloodweb"
 filename = "Bloodweb.json"
 custom_data_filename = "CustomCharacterData.json"
 custom_status = True
-Misc.load_settings()
 
 def request(flow):
     try:

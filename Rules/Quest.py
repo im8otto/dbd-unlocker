@@ -9,7 +9,6 @@ headers_filename = "Headers.json"
 url_request = "api/v1/gameDataAnalytics/v2/batch"
 url_response = "api/v1/archives/stories/update/active-node-v3"
 status = True
-Misc.load_settings()
 
 async def request(flow: http.HTTPFlow):
     try:

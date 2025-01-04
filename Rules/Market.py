@@ -5,7 +5,6 @@ from Utils import Misc
 url = "api/v1/inventories"
 filename = "MarketNoSavefile.json"
 status = True
-Misc.load_settings()
 
 def response(flow):
     try:

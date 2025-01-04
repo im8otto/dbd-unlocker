@@ -5,7 +5,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from mitmproxy import http
 from Rules import Market, Banner, Bloodweb, Headers, GetAll, Quest
 from Utils import Misc
-
+Misc.load_settings()
 
 def response(flow: http.HTTPFlow) -> None:
     if Market.status and Market.url in flow.request.path:

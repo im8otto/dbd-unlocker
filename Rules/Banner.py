@@ -4,7 +4,6 @@ from Utils import Misc
 url = "api/v1/dbd-player-card"
 filename = "Banner.json"
 status = True
-Misc.load_settings()
 
 def response(flow):
     global filename
